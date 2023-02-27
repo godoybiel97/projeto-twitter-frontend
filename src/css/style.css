@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.cabecalho {
+    flex-basis: 25%;
+}
+
+.cabecalho__logo {
+
+}
+
+.cabecalho__logo img {
+    margin-bottom: 50px;
+}
+
+.cabecalho__logo figcaption {
+    display: none;
+}
+
+.cabecalho__menu {
+
+}
+
+.cabecalho__lista {
+
+}
+
+.cabecalho__itens {
+    margin-bottom: 25px;
+}
+
+.cabecalho__itens img {
+    max-width: 26px;
+}
+
+.cabecalho__itens a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    vertical-align: top;
+}
+
+.conteudoPrincipal {
+    flex-basis: 75%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+}
+
+.conteudoPrincipal__titulo {
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.conteudoPrincipal__formulario {
+    padding: 10px 30px;
+    border-top:  1px solid #e7ecf0;
+    border-bottom:  10px solid #e7ecf0;
+    text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 60px;
+}
+
+.conteudoPrincipal__formulario button {
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.conteudoPrincipal__feed {
+    
+}
+
+.conteudoPrincipal__tweets {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+.conteudoPrincipal__tweet {
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil {
+    
+}
+
+.tweet__conteudo {
+    margin-left: 12px;
+}
+
+.tweet__conteudo h2 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tweet__conteudo span {
+    display: inline-block;
+    color: #828282;
+}
+
+.tweet__conteudo p {
+    margin-top: 15px;
+    color: #333333;
+}

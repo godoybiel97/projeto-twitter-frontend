@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/bird 1.svg"
+      type="image/x-icon"
+    />
+    <title>Ken Te Vi</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <figure class="cabecalho__logo">
+          <img src="./src/assets/bird 1.svg" alt="Logo" />
+          <figcaption hidden>Logo Ken Te Vi</figcaption>
+        </figure>
+        <nav class="cabecalho__menu">
+          <ul class="cabecalho__lista">
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Home.png" alt="Home" />
+              <a href="">Página inicial</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Hashtag.png" alt="Explorar" />
+              <a href="">Explorar</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Notification.png" alt="Notificações" />
+              <a href="">Notificações</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Group.png" alt="Mensagens" />
+              <a href="">Mensagens</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Group (1).png" alt="Itens salvos" />
+              <a href="">Itens salvos</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Group (2).png" alt="Listas" />
+              <a href="">Listas</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img
+                src="./src/assets/ProfilePic.png"
+                alt="Perfil"
+              />
+              <a href="">Perfil</a>
+            </li>
+            <li class="cabecalho__itens">
+              <img src="./src/assets/Group (3).png" alt="Mais" />
+              <a href="">Mais</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="conteudoPrincipal">
+        <h3 class="conteudoPrincipal__titulo">Home</h3>
+        <form action="#" class="conteudoPrincipal__formulario">
+          <textarea
+            name="textoTweet"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="O que está acontecendo ?"
+          ></textarea>
+          <button type="submit">Tweetar</button>
+        </form>
+        <section class="conteudoPrincipal__feed">
+          <ul class="conteudoPrincipal__tweets">
+            <li class="conteudoPrincipal__tweet">
+              <img
+                class="tweet__fotoPerfil"
+                src="./src/assets/ProfilePic.png"
+                alt="Daniel"
+              />
+              <div class="tweet__conteudo">
+                <h2>Daniel</h2>
+                <span>@daniel123</span>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, eos? Magnam unde explicabo omnis aspernatur, veniam
+                  laudantium quidem mollitia temporibus minima rerum alias!
+                  Consequuntur ea minus voluptatum ullam alias unde?
+                </p>
+              </div>
+            </li>
+            <li class="conteudoPrincipal__tweet">
+              <img src="./src/assets/ProfilePic (1).png" alt="Larissa" />
+              <div class="tweet__conteudo">
+                <h2>Larissa</h2>
+                <span>@larissa123</span>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, eos? Magnam unde explicabo omnis aspernatur, veniam
+                  laudantium quidem mollitia temporibus minima rerum alias!
+                  Consequuntur ea minus voluptatum ullam alias unde?
+                </p>
+              </div>
+            </li>
+            <li class="conteudoPrincipal__tweet">
+              <img src="./src/assets/ProfilePic (2).png" alt="Hudson" />
+              <div class="tweet__conteudo">
+                <h2>Hudson</h2>
+                <span>@hudson123</span>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae, eos? Magnam unde explicabo omnis aspernatur, veniam
+                  laudantium quidem mollitia temporibus minima rerum alias!
+                  Consequuntur ea minus voluptatum ullam alias unde?
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
